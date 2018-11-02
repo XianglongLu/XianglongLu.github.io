@@ -1,0 +1,536 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/images/me.jpg">
+	 <link rel="shortcut icon" href="/images/me.jpg">
+	
+			
+    <title>
+    XianglongLu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_funky.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Home</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="关于我">
+		                关于我
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/paper/" title="硕士成果">
+		                硕士成果
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/XianglongLu" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1538240830988&amp;di=f1fa0526de863fc3ac06bd165acc2853&amp;imgtype=0&amp;src=http%3A%2F%2Farticle.fd.zol-img.com.cn%2Ft_s500x375%2Fg5%2FM00%2F04%2F0D%2FChMkJlbimg-ICDdLAAKjqpopKRwAANR8wJNANsAAqPC175.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Linux —— MIPI DSI简介</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h3 id="专有名词解析"><a href="#专有名词解析" class="headerlink" title="专有名词解析"></a>专有名词解析</h3><p>LPS: Low Power State 低功耗状态<br>HSS: High Speed State 告诉状态<br>SoT: Start of Transmission 传输始端<br>EoT: End of Transmission 传输末端<br>SP: Short Packet 短包<br>LgP: Long Packet 长包<br>ST: Single Transmission 传输信号<br>BLLP: Blanking or Low Power interval 间隔或低功耗区间<br>HBP: Horizontal Back Porch 水平后肩<br>HFP: Horizontal Front Porch 水平前肩<br>HSA: Horizontal Sync Active 水平同步激活<br>HSE: Horizontal Sync End 水平同步末端<br>HSS: Horizontal Sync Start 水平同步始端<br>VSA: Vertical Sync Active 垂直同步激活<br>VSE: Vertical Sync End 垂直同步末端<br>VSS: Vertical Sync Start 垂直同步始端<br>BTA: Bus Turn-Around 总线反转<br>EoTp: End of Transmission Packet</p>
+<h4 id="什么是MIPI？"><a href="#什么是MIPI？" class="headerlink" title="什么是MIPI？"></a>什么是MIPI？</h4><p>MIPI全称Mobile Industry Processor Interface，即移动行业处理器接口。它是由MIPI alliance发起的为移动应用处理器制定的开放标准。</p>
+<h4 id="什么是DSI？"><a href="#什么是DSI？" class="headerlink" title="什么是DSI？"></a>什么是DSI？</h4><p>DSI全称是Display Serial Interface，即显示串行接口。 </p>
+<h1 id="2-MIPI的特点"><a href="#2-MIPI的特点" class="headerlink" title="2. MIPI的特点"></a>2. MIPI的特点</h1><ol>
+<li>相对于其它接口，它的pin比较少；</li>
+<li>最多支持3个数据通道（lane），每个lane最大传输速率为1 Gbps；</li>
+<li>因为它属于LVDS（低压差分信号），因此抗干扰能力强。</li>
+</ol>
+<h1 id="3-MIPI-DSI组成"><a href="#3-MIPI-DSI组成" class="headerlink" title="3. MIPI DSI组成"></a>3. MIPI DSI组成</h1><p>1对差分时钟线和至少1对（最多不超过4对）数据通道（data lane）组成。<br><img src="/img/mipi-dsi-lane.png" alt="图1"></p>
+<p>它的lane可分为如下3种类型：</p>
+<ul>
+<li>单向时钟通道/Unidirectional Clock Lane (MIPI CLK)</li>
+<li>单向数据通道/Unidirectional Data Lane (Data Lane 1 - 3)</li>
+<li>双向数据通道/Bi-directional Data Lane (Data Lane 0)</li>
+</ul>
+<p>传输模式有2种：</p>
+<ul>
+<li>低功耗模式(LP)</li>
+<li>高速模式(HS)</li>
+</ul>
+<p>操作模式：<br>D-PHY的操作模式：</p>
+<ol>
+<li>Escape Mode</li>
+<li>High Speed(Burst) Mode</li>
+<li>Control Mode</li>
+</ol>
+<p>DSI的操作模式：<br>Command Mode<br>Video Mode</p>
+<h2 id="3-1-MIPI-DSI-Clock"><a href="#3-1-MIPI-DSI-Clock" class="headerlink" title="3.1 MIPI DSI Clock"></a>3.1 MIPI DSI Clock</h2><p>DSI Clock是从Host(主机)到Peripheral(外部设备)的信号。<br>DSI Clock有2种类型，一种是continuous clock(连续时钟)，另一种是non-continuous clock(非连续时钟)。<br>注意，，而。</p>
+<h3 id="continuous-clock-连续时钟"><a href="#continuous-clock-连续时钟" class="headerlink" title="continuous clock 连续时钟"></a>continuous clock 连续时钟</h3><p>协议里规定所有DSI收发端都需要支持continuous clock。</p>
+<h3 id="non-continuous-clock-非连续时钟"><a href="#non-continuous-clock-非连续时钟" class="headerlink" title="non-continuous clock 非连续时钟"></a>non-continuous clock 非连续时钟</h3><p>协议没有规定所有的DSI收发端都必须支持non-continuous clock。<br>一般在vertical blanking和horizontal blanking时插入LPS(Low Power State)。</p>
+<h2 id="3-2-MIPI-Data-Lane的工作模式-物理层的工作模式"><a href="#3-2-MIPI-Data-Lane的工作模式-物理层的工作模式" class="headerlink" title="3.2 MIPI Data Lane的工作模式(物理层的工作模式)"></a>3.2 MIPI Data Lane的工作模式(物理层的工作模式)</h2><p>Data Lane上有如下几种工作模式<br>(1) Control Mode<br>(2) High Speed(Burst) Mode<br>(3) Escape Mode<br>(4) Bus Turnaround(BTA) / Turnaround(TA)<br>注意：每个模式都必须从Stop State(LP-11)开始。</p>
+<p><img src="/img/mipi-dsi-mode-switch.png" alt="图2"></p>
+<h3 id="3-2-1-Control-Mode-控制模式"><a href="#3-2-1-Control-Mode-控制模式" class="headerlink" title="3.2.1 Control Mode / 控制模式"></a>3.2.1 Control Mode / 控制模式</h3><p>控制模式是LP模式下的非传输模式。<br>此时Data Lane处于LP11状态，模式之间切换基本都会回到这个模式，然后才能去转成其它模式。<br>进入时序: LP11 -&gt; LP10 -&gt; LP00 -&gt; LP10 -&gt; LP00<br>退出时序：LP00 -&gt; LP10 -&gt; LP11</p>
+<h3 id="3-2-2-Escape-Mode"><a href="#3-2-2-Escape-Mode" class="headerlink" title="3.2.2 Escape Mode"></a>3.2.2 Escape Mode</h3><p>Escape Mode是LP模式下的传输模式。<br>在该模式下，才可以进入一些额外的功能模式，即：Trigger，ULP，LPDT。<br>(1) Trigger<br>(2) ULP: Ultra-Low Power State，超低功耗模式<br>(3) LPDT：Low Power Data Transmission，低功耗数据传输<br>进入时序: LP11 -&gt; LP10 -&gt; LP00 -&gt; LP01 -&gt; LP00<br>退出时序：LP10 -&gt; LP11</p>
+<h3 id="3-2-3-High-Speed-Burst-Mode-Mode"><a href="#3-2-3-High-Speed-Burst-Mode-Mode" class="headerlink" title="3.2.3 High Speed(Burst) Mode Mode"></a>3.2.3 High Speed(Burst) Mode Mode</h3><p>进入时序：LP11 -&gt; LP01 -&gt; LP00 -&gt; SoT(0001_1101)<br>退出时序：EoT -&gt; LP11</p>
+<h3 id="3-2-4-Bus-Turnaround-BTA-Turnaround-TA"><a href="#3-2-4-Bus-Turnaround-BTA-Turnaround-TA" class="headerlink" title="3.2.4 Bus Turnaround(BTA) / Turnaround(TA)"></a>3.2.4 Bus Turnaround(BTA) / Turnaround(TA)</h3><p>总线控制权交换。当处于低速模式下读的时候，主机发完命令和参数后，<br>要将总线控制权交给从设备，从设备再返回读的结构给给我们。<br>主机发起泛起总线控制权: LP11-&gt;LP10-&gt;LP00-&gt;LP10-&gt;LP00<br>从设备接受总线控制权会应答主机(ACK): LP00-&gt;LP10-&gt;LP11<br>当从设备返回读的结果后，交还控制权给主机。<br>此时从设备会发起: LP11-&gt;LP10-&gt;LP00-&gt;LP10-&gt;LP00<br>读过程结束。</p>
+<h2 id="3-3-DSI的操作模式"><a href="#3-3-DSI的操作模式" class="headerlink" title="3.3 DSI的操作模式"></a>3.3 DSI的操作模式</h2><h3 id="3-3-1-Command-Mode"><a href="#3-3-1-Command-Mode" class="headerlink" title="3.3.1 Command Mode"></a>3.3.1 Command Mode</h3><h4 id="3-3-2-Video-Mode"><a href="#3-3-2-Video-Mode" class="headerlink" title="3.3.2 Video Mode"></a>3.3.2 Video Mode</h4><p>Video Mode又分为3种Mode：</p>
+<ol>
+<li>Non-burst Mode Sync pulses, 非突发同步脉冲模式 </li>
+<li>Non-burst Mode Sync event, 非突发同步事件模式</li>
+<li>Burst mode, 突发模式</li>
+</ol>
+<h1 id="4-MIPI-DSI的注册流程分析"><a href="#4-MIPI-DSI的注册流程分析" class="headerlink" title="4. MIPI DSI的注册流程分析"></a>4. MIPI DSI的注册流程分析</h1><p>它有一个通用的driver，即（相同目录下也有一些产品的driver）：</p>
+<pre><code>/kernel/drivers/gpu/drm/panel/pane-simple.c
+</code></pre><p>但在这个加载之前，系统会先加载backlight驱动，<br>也就是pwm（Pulse Width Modulation, 脉冲宽度调制）驱动。目录如下：</p>
+<pre><code>kernel/drivers/video/backlight/pwm_bl.c
+</code></pre><h3 id="4-1-背光pwm-bl-c流程"><a href="#4-1-背光pwm-bl-c流程" class="headerlink" title="4.1 背光pwm_bl.c流程"></a>4.1 背光pwm_bl.c流程</h3><p>最后似乎会在/sys/class/backlight/下面生成设备节点。类似：rk28_bl</p>
+<pre><code>backlight: backlight {
+        status = &quot;disabled&quot;;
+        compatible = &quot;pwm-backlight&quot;;    // 该设备兼容pw-backlight
+        pwms = &lt;&amp;pwm0 0 25000 0&gt;;        // 使用哪个pwm channel，2
+        brightness-levels = &lt;            // 背光可调的等级0~255
+              0   1   2   3   4   5   6   7
+              8   9  10  11  12  13  14  15
+             16  17  18  19  20  21  22  23
+             24  25  26  27  28  29  30  31
+             32  33  34  35  36  37  38  39
+             40  41  42  43  44  45  46  47
+             48  49  50  51  52  53  54  55
+             56  57  58  59  60  61  62  63
+             64  65  66  67  68  69  70  71
+             72  73  74  75  76  77  78  79
+             80  81  82  83  84  85  86  87
+             88  89  90  91  92  93  94  95
+             96  97  98  99 100 101 102 103
+            104 105 106 107 108 109 110 111
+            112 113 114 115 116 117 118 119
+            120 121 122 123 124 125 126 127
+            128 129 130 131 132 133 134 135
+            136 137 138 139 140 141 142 143
+            144 145 146 147 148 149 150 151
+            152 153 154 155 156 157 158 159
+            160 161 162 163 164 165 166 167
+            168 169 170 171 172 173 174 175
+            176 177 178 179 180 181 182 183
+            184 185 186 187 188 189 190 191
+            192 193 194 195 196 197 198 199
+            200 201 202 203 204 205 206 207
+            208 209 210 211 212 213 214 215
+            216 217 218 219 220 221 222 223
+            224 225 226 227 228 229 230 231
+            232 233 234 235 236 237 238 239
+            240 241 242 243 244 245 246 247
+            248 249 250 251 252 253 254 255&gt;;
+        default-brightness-level = &lt;50&gt;;        // 背光默认使用等级为50
+        //enable-gpios = &lt;GPIO&gt;                    // backlight的使能控制GPIO
+    };
+</code></pre><p>背光驱动流程：<br>pwm_bl.c从pwm_backlight_probe开始：</p>
+<pre><code>static int pwm_backlight_probe(struct platform_device *pdev)
+-&gt;
+ret = pwm_backlight_parse_dt(&amp;pdev-&gt;dev, &amp;defdata); // 读取上面dts中的brightness-levels和default-brightness-level
+-&gt;
+pb-&gt;enable_gpio = devm_gpiod_get_optional(&amp;pdev-&gt;dev, &quot;enable&quot;,
+                          GPIOD_ASIS); // 读取dts中的enable-gpios
+-&gt;
+ret = devm_gpio_request_one(&amp;pdev-&gt;dev, data-&gt;enable_gpio,
+                        GPIOF_OUT_INIT_HIGH, &quot;enable&quot;); // 申请使用用的GPIO：enable-gpios
+-&gt;
+pb-&gt;enable_gpio = gpio_to_desc(data-&gt;enable_gpio); // 解析gpio描述符
+-&gt;
+pb-&gt;power_supply = devm_regulator_get(&amp;pdev-&gt;dev, &quot;power&quot;); // 解析supply power ??
+-&gt;
+regulator = _regulator_get(dev, id, get_type);
+(/drivers/regulator/devres.c)
+-&gt;
+struct regulator *_regulator_get(struct device *dev, const char *id,
+                 enum regulator_get_type get_type)
+{
+...
+        switch (get_type) {
+        case NORMAL_GET:
+            /*
+             * Assume that a regulator is physically present and
+             * enabled, even if it isn&#39;t hooked up, and just
+             * provide a dummy.
+             */
+            dev_warn(dev,
+                 &quot;%s supply %s not found, using dummy regulator\n&quot;,
+                 devname, id);
+            rdev = dummy_regulator_rdev;
+            get_device(&amp;rdev-&gt;dev);
+            break;
+...
+}
+(/drivers/regulator/core.c)
+出现backlight supply power not found, using dummy regulator.就是在这个地方了。
+-&gt;
+pb-&gt;pwm = devm_pwm_get(&amp;pdev-&gt;dev, NULL); // 获得一个pwm
+-&gt;
+pb-&gt;pwm = pwm_request(data-&gt;pwm_id, &quot;pwm-backlight&quot;); // 申请一个
+-&gt;
+pwm_apply_args(pb-&gt;pwm);
+-&gt;
+pwm_get_args(pb-&gt;pwm, &amp;pargs);
+-&gt;
+bl = backlight_device_register(dev_name(&amp;pdev-&gt;dev), &amp;pdev-&gt;dev, pb,
+                   &amp;pwm_backlight_ops, &amp;props); // 注册标准背光设备
+-&gt;
+bl-&gt;props.power = pwm_backlight_initial_power_state(pb); // 初始power state设置
+===================================================
+static int pwm_backlight_initial_power_state(const struct pwm_bl_data *pb)
+{
+    struct device_node *node = pb-&gt;dev-&gt;of_node;
+
+    /* Not booted with device tree or no phandle link to the node */
+    if (!node || !node-&gt;phandle)
+        return FB_BLANK_UNBLANK;
+
+    /*
+     * If the driver is probed from the device tree and there is a
+     * phandle link pointing to the backlight node, it is safe to
+     * assume that another driver will enable the backlight at the
+     * appropriate time. Therefore, if it is disabled, keep it so.
+     */
+
+    /* if the enable GPIO is disabled, do not enable the backlight */
+    if (pb-&gt;enable_gpio &amp;&amp; gpiod_get_value(pb-&gt;enable_gpio) == 0)
+        return FB_BLANK_POWERDOWN;
+
+    /* The regulator is disabled, do not enable the backlight */
+    if (!regulator_is_enabled(pb-&gt;power_supply))
+        return FB_BLANK_POWERDOWN;
+
+    /* The PWM is disabled, keep it like this */
+    if (!pwm_is_enabled(pb-&gt;pwm))
+        return FB_BLANK_POWERDOWN;
+
+    return FB_BLANK_UNBLANK;
+}
+-&gt;
+backlight_update_status(bl);
+===================================================
+static inline int backlight_update_status(struct backlight_device *bd)
+{
+    int ret = -ENOENT;
+
+    mutex_lock(&amp;bd-&gt;update_lock);
+    if (bd-&gt;ops &amp;&amp; bd-&gt;ops-&gt;update_status)
+        ret = bd-&gt;ops-&gt;update_status(bd);
+    mutex_unlock(&amp;bd-&gt;update_lock);
+
+    return ret;
+}
+-&gt;
+ret = bd-&gt;ops-&gt;update_status(bd);
+===================================================
+static int pwm_backlight_update_status(struct backlight_device *bl)
+{
+    struct pwm_bl_data *pb = bl_get_data(bl);
+    int brightness = bl-&gt;props.brightness;
+    int duty_cycle;
+
+    if (bl-&gt;props.power != FB_BLANK_UNBLANK ||
+        bl-&gt;props.fb_blank != FB_BLANK_UNBLANK ||
+        bl-&gt;props.state &amp; BL_CORE_FBBLANK)
+        brightness = 0;
+
+    if (pb-&gt;notify)
+        brightness = pb-&gt;notify(pb-&gt;dev, brightness);
+
+    if (brightness &gt; 0) {
+        duty_cycle = compute_duty_cycle(pb, brightness);
+        pwm_config(pb-&gt;pwm, duty_cycle, pb-&gt;period); // 配置PWM
+        pwm_backlight_power_on(pb, brightness); // 打开背光
+    } else
+        pwm_backlight_power_off(pb);
+
+    if (pb-&gt;notify_after)
+        pb-&gt;notify_after(pb-&gt;dev, brightness);
+
+    return 0;
+}
+-&gt;
+pwm_config(pb-&gt;pwm, duty_cycle, pb-&gt;period); // 配置PWM
+-&gt;
+pwm_backlight_power_on(pb, brightness); // 打开背光
+===================================================
+static void pwm_backlight_power_on(struct pwm_bl_data *pb, int brightness)
+{
+    int err;
+
+    if (pb-&gt;enabled)
+        return;
+
+    err = regulator_enable(pb-&gt;power_supply);
+    if (err &lt; 0)
+        dev_err(pb-&gt;dev, &quot;failed to enable power supply\n&quot;);
+
+    if (pb-&gt;enable_gpio)
+        gpiod_set_value_cansleep(pb-&gt;enable_gpio, 1);
+
+    pwm_enable(pb-&gt;pwm);
+    pb-&gt;enabled = true;
+}
+-&gt;
+</code></pre><h3 id="4-2-panel-simple-c流程"><a href="#4-2-panel-simple-c流程" class="headerlink" title="4.2 panel-simple.c流程"></a>4.2 panel-simple.c流程</h3><pre><code>module_init(panel_simple_init); // module的初始化都调用这个函数module_init
+-&gt; 
+static int __init panel_simple_init(void)
+-&gt;
+err = mipi_dsi_driver_register(&amp;panel_simple_dsi_driver);
+-&gt;
+static struct mipi_dsi_driver panel_simple_dsi_driver
+-&gt;
+...（略）
+-&gt;
+panel_simple_probe
+================================================
+static int panel_simple_probe(struct device *dev, const struct panel_desc *desc)
+
+-&gt;
+panel-&gt;supply = devm_regulator_get(dev, &quot;power&quot;); // 从dts中解析power ??
+-&gt;
+panel-&gt;enable_gpio = devm_gpiod_get_optional(dev, &quot;enable&quot;, // 从dts中解析enable-gpio ??
+                         GPIOD_OUT_LOW);
+-&gt;
+backlight = of_parse_phandle(dev-&gt;of_node, &quot;backlight&quot;, 0); // 从dts中解析backlight ??
+-&gt;
+ddc = of_parse_phandle(dev-&gt;of_node, &quot;ddc-i2c-bus&quot;, 0); // 从dts中解析ddc（直接数字控制??） ??
+-&gt;
+drm_panel_init(&amp;panel-&gt;base);
+-&gt;
+panel-&gt;base.funcs = &amp;panel_simple_funcs;
+-&gt;
+static int panel_simple_prepare(struct drm_panel *panel)
+{
+    struct panel_simple *p = to_panel_simple(panel);
+    int err;
+
+    if (p-&gt;prepared)
+        return 0;
+
+    err = regulator_enable(p-&gt;supply);
+    if (err &lt; 0) {
+        dev_err(panel-&gt;dev, &quot;failed to enable supply: %d\n&quot;, err);
+        return err;
+    }
+
+    gpiod_set_value_cansleep(p-&gt;enable_gpio, 1);
+
+    if (p-&gt;desc-&gt;delay.prepare)
+        msleep(p-&gt;desc-&gt;delay.prepare);
+
+    p-&gt;prepared = true;
+
+    return 0;
+}
+-&gt;
+err = regulator_enable(p-&gt;supply);
+-&gt;
+gpiod_set_value_cansleep(p-&gt;enable_gpio, 1);
+// 对于有些挂载在I2C，SPI总线上的扩展GPIO，读写操作可能会导致睡眠，
+因此不能在中断函数中使用。使用下面的函数以区别于正常的GPIO
+int gpio_get_value_cansleep(unsigned gpio);//读GPIO
+void gpio_set_value_cansleep(unsigned gpio, int value);//写GPIO
+-&gt;
+static int panel_simple_enable(struct drm_panel *panel)
+{
+    struct panel_simple *p = to_panel_simple(panel);
+
+    if (p-&gt;enabled)
+        return 0;
+
+    if (p-&gt;desc-&gt;delay.enable)
+        msleep(p-&gt;desc-&gt;delay.enable);
+
+    if (p-&gt;backlight) {
+        p-&gt;backlight-&gt;props.state &amp;= ~BL_CORE_FBBLANK;
+        p-&gt;backlight-&gt;props.power = FB_BLANK_UNBLANK;
+        backlight_update_status(p-&gt;backlight); // 设置背光
+    }
+
+    p-&gt;enabled = true;
+
+    return 0;
+}
+</code></pre>
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://xianglonglu.coding.me/2018/06/07/mipi-dsi/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://xianglonglu.coding.me/2018/06/07/mipi-dsi/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+				<span id="busuanzi_container_site_pv"> 2018 </span> 
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

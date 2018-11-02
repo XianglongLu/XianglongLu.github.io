@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/images/me.jpg">
+	 <link rel="shortcut icon" href="/images/me.jpg">
+	
+			
+    <title>
+    XianglongLu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_funky.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Home</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="关于我">
+		                关于我
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/paper/" title="硕士成果">
+		                硕士成果
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/XianglongLu" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1528388994768&amp;di=087fe55b7b96fc6cc1e7a2e04e8eae8d&amp;imgtype=0&amp;src=http%3A%2F%2Fimage5.92bizhi.com%2Funclassified_unclassified--130_22-1440x900.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>LCM/LCD —— VA,VBP,VBF,Vsync-len,HA,HBP,HBF,Hsync-len参数简介</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>LCD有几个重要的参数，困扰了我很久。<br>它们是：</p>
+<pre><code>HA            :Horizontal Active        水平有效区域
+Hsync-len    :Horizontal Sync Length    水平同步长度
+HBP            :Horizontal Back Porch    水平后肩
+HFP            :Horizontal Front Porch    水平前肩
+VA            :Vertical Active        垂直有效区域
+Vsync-len    :Vertical Sync Length    垂直同步长度
+VBP            :Vertical Back Porch    垂直后肩
+VFP            :Vertical Front Porch    垂直前肩
+</code></pre><p>具体位置如下图所示：<br><img src="/img/lcm-display-area.png" alt="图1"></p>
+<p>这些定义最早出现于CRT（Cathode Rays Tube，阴极射线管）中。<br>CRT是最原始的电子显示技术，在上世纪的老式电视和电脑显示器用的都是这种技术。</p>
+<p>那么为什么需要这几个参数？</p>
+<p><img src="/img/lcm-scan-picture.png" alt="图2"></p>
+<p>在CRT技术中，电子束依次轰击屏幕上的荧光物质，完成光电转换，进而在显示屏上显示东西。<br>电子束会在水平偏转磁场和垂直偏转磁场的偏转作用下，依次扫描(轰击)显示屏。</p>
+<p>扫描的大概过程如下所示：<br>电子束从左往右开始扫描，当扫描完一行之后，会在水平偏转磁场的作用下快速移动到最左边，<br>并在垂直偏转磁场的作用下，向下偏转到下一行。<br>当扫完一帧后，会在水平偏转磁场的作用下快速移动到最左边，<br>并在垂直偏转磁场的作用下，向上偏转回到开始的位置。<br>这两个情况都叫做回扫。</p>
+<p>但由于回扫过程中是不能输出信号的，因此需要关掉电子束，称作blank（Horizontal/Vertical balnk）。<br>回扫结束后（回到了最左边或者最右边），需要重新打开电子束，称作unblank。</p>
+<p>电子枪关闭和开启的时候均需要时间，这跟LCM本身的结构和特性（例如LCD控制器）有关。<br>此外在回扫过程中也需要时间，这就是XFP,XBP和Xsync-len的存在意义。<br>具体如下图所示：<br><img src="/img/lcm-scan.png" alt="图2"></p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://xianglonglu.coding.me/2018/06/30/lcm-basic/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://xianglonglu.coding.me/2018/06/30/lcm-basic/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+				<span id="busuanzi_container_site_pv"> 2018 </span> 
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

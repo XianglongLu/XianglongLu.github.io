@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/images/me.jpg">
+	 <link rel="shortcut icon" href="/images/me.jpg">
+	
+			
+    <title>
+    XianglongLu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_funky.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Home</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="关于我">
+		                关于我
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/paper/" title="硕士成果">
+		                硕士成果
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/XianglongLu" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(http://images.techhive.com/images/article/2016/06/linux-console-wallpaper-100666918-orig.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Linux —— 静态函数库和动态加载函数库(共享库)</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>Linux下有2种函数库：<br>一种是<strong>静态函数库(static libraries)</strong>；<br>另一种叫<strong>动态加载函数库(dynamically loaded libraries)</strong>，也叫<strong>共享函数库(shared libraries)</strong>。</p>
+<h3 id="1-基本原理和优缺点分析"><a href="#1-基本原理和优缺点分析" class="headerlink" title="1.基本原理和优缺点分析"></a>1.基本原理和优缺点分析</h3><p><strong>静态库</strong>的代码在编译过程中就已经被载入可执行文件。<br><strong>缺点：</strong><br>(1)一般来说可执行文件的文件大小比较大；<br>(2)如果静态库需要改变，则整个执行文件就需要重新编译，不符合高内聚低耦合的特点；<br><strong>优点：</strong><br>(1)”适用性强”，可执行文件不需要外部函数库的支持，复制到其它Linux系统上就可以直接运行；</p>
+<p><strong>动态库</strong>的代码在可执行文件执行的时候才载入内存，在编译过程只是简单的引用。<br><strong>缺点：</strong><br>(1)可执行文件的文件大小比较小；<br><strong>优点：</strong><br>(1)提高了代码的复用程度，并降低了程序的耦合度。</p>
+<h3 id="2-编译方法"><a href="#2-编译方法" class="headerlink" title="2.编译方法"></a>2.编译方法</h3><p>静态库名字一般为<strong>libxxx.a</strong>，而动态库一般则为<strong>libxxx.so</strong>。<br>无论动态库还是静态库，都是由.o文件(object file，中间目标文件，是通过使用gcc将源码.c文件编译而来)创建而来的。</p>
+<p>如果编译静态库，则使用<strong>ar</strong>指令（archiver的缩写）。<br>把x.o和y.o加入到xy_library.a函数库中。如果xy_library.a不存在则新建一个。</p>
+<pre><code># ar rcs xy_library.a x.o y.o
+</code></pre><p>如果你是使用gcc来编译生成可执行文件，则可以使用-l参数来制定这个函数库。</p>
+<h3 id="3-实例分析"><a href="#3-实例分析" class="headerlink" title="3.实例分析"></a>3.实例分析</h3><p>本例程共有3个源文件组成：<br><strong>test.h</strong> 函数库的头文件<br><strong>test.c</strong> 函数库的源程序<br><strong>main.c</strong> 用于测试函数库的主程序</p>
+<p>它们的代码分别如下：<br>test.h</p>
+<pre><code>void test(void);
+</code></pre><p>test.c</p>
+<pre><code>#include &lt;stdio.h&gt; 
+void test(void)
+{ 
+    printf(&quot;This is a test!\n&quot;); 
+    return;
+}
+</code></pre><p>main.c</p>
+<pre><code>#include &quot;test.h&quot;
+void test(void)
+{ 
+    test();
+    return;
+}
+</code></pre><p>将它们编译成可执行文件共有3种方法：</p>
+<h4 id="1-编译成多个源文件的方法"><a href="#1-编译成多个源文件的方法" class="headerlink" title="1.编译成多个源文件的方法"></a>1.编译成多个源文件的方法</h4><p>分别将test.c和main.c编译成为.o文件：</p>
+<pre><code># gcc -c test.c
+# gcc -c main.c
+</code></pre><p>此时当前目录下可以看到生成了test.o和main.c。</p>
+<p>接下来将2个.o文件链接为一个叫做fortest的可执行文件：</p>
+<pre><code># gcc test.o main.o -o fortest 
+</code></pre><p>可看到当前目录下生成了fortest可执行文件。<br>运行它~</p>
+<pre><code># ./fortest
+This is a test!
+</code></pre><p>至此该种方法演示结束。</p>
+<h4 id="2-静态函数库的方法"><a href="#2-静态函数库的方法" class="headerlink" title="2.静态函数库的方法"></a>2.静态函数库的方法</h4><p>第一步跟上面的方法1一样，然后使用ar命令将test生成静态函数看libtest.a：</p>
+<pre><code># gcc -c test.c
+# ar rcs libtest.a test.o
+</code></pre><p>其中：<br>r表示在库中插入模板；<br>c表示创建一个库，不管其是否存在；<br>s表示写一个目标文件索引到库种，或者更新一个存在的目标文件索引。</p>
+<p>最后生成可执行文件fortest：</p>
+<pre><code># gcc -o fortest main.c -static -L. -ltest
+</code></pre><p>其中：<br><strong>-L.</strong>表示要链接的库在当前目录中；<br><strong>-ltest</strong>表示要链接的库叫做libtest.a</p>
+<p>测试可执行文件，没啥毛病：</p>
+<pre><code># ./fortest
+This is a test!
+</code></pre><h4 id="3-动态函数库的方法"><a href="#3-动态函数库的方法" class="headerlink" title="3.动态函数库的方法"></a>3.动态函数库的方法</h4><pre><code># gcc -shared -fPIC -c test.c
+# gcc -shared -fPIC -o libtest.so test.o
+</code></pre><pre><code># gcc -o fortest main.c -L. -ltest
+</code></pre><p>其中：<br>同上，<strong>-L.</strong>表示要链接的库在当前目录中；<br><strong>-ltest</strong>表示要链接的库叫做libtest.so</p>
+<p>如果你直接执行./fortest，不好意思，error！</p>
+<pre><code>./fortest: error while loading shared libraries: libtest.so: cannot open shared object file: No such file or directory
+</code></pre><p>为什么呢？默认情况下可执行文件是在linux文件系统的/usr/lib等目录下寻找动态加载库文件，<br>然而我们的libtest.so却是在当前目录下，它理所没法被可执行文件找到。<br><strong>方法1：</strong>将动态库搬移到/usr/lib/目录下</p>
+<pre><code>sudo mv libtest.so /usr/lib/
+</code></pre><p><strong>方法2：</strong>将LD_LIBRARY_PATH设置为当前目录<br>由于连接器会默认索索LD_LIBRARY_PATH所指定的目录，我们不妨将当前目录路径赋给它。</p>
+<pre><code># export LD_LIBRARY_PATH=$(pwd)
+</code></pre><p><strong>方法3：</strong>ldconfig 目录路径</p>
+<pre><code>sudo ldconfig $(pwd)
+</code></pre><p>将当前目录中的动态库可以被系统共享。<br>实际上是在缓存文件/etc/ld.so.cache中追加了该目录中的共享库。</p>
+<p>同上，测试一下可执行文件：</p>
+<pre><code># ./fortest
+This is a test!
+</code></pre><p>没毛病~</p>
+<p>我通过ls -lh指令查看了这3个可执行文件的大小，好家伙~<br>使用方法1和3生成的可执行文件约8.5KB，方法2的为792KB。相差了90多倍！！<br>这更好的印证了静态库的缺点。<br>这也就是为什么系统中多用动态库的原因了。</p>
+<p>To be continue…</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://xianglonglu.coding.me/2018/09/30/linux-static-and-dynamic-libraries/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://xianglonglu.coding.me/2018/09/30/linux-static-and-dynamic-libraries/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+				<span id="busuanzi_container_site_pv"> 2018 </span> 
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/images/me.jpg">
+	 <link rel="shortcut icon" href="/images/me.jpg">
+	
+			
+    <title>
+    XianglongLu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_funky.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Home</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="关于我">
+		                关于我
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/paper/" title="硕士成果">
+		                硕士成果
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/XianglongLu" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1538835208&amp;di=ff4a4649c27d45692bc0e135ead37a87&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180114%2Fbd112dd6afd74baf95cc3fd27c6d7d7b.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Linux设备与PC进行文件交互之ADB、USB device和tftp</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>我有一台嵌入式Linux设备，我想将让我的PC（windows/Linux都行）能够与之进行文件交互。<br>通常有如下几种方法：</p>
+<ol>
+<li>ADB</li>
+<li>mount USB device</li>
+<li>tftp server/client<br>下面我就逐一介绍一下。</li>
+</ol>
+<h2 id="1-ADB-Shell"><a href="#1-ADB-Shell" class="headerlink" title="1. ADB Shell"></a>1. ADB Shell</h2><p>之前乍一听ADB Shell，我本以为只有安卓设备才可以使用该功能。其实不然。<br>只要嵌入式设备有USB接口，且设备上装有adbd，你则可通过USB轻松的完成交互。<br>在你的PC端（假设为windows）安装好adb shell driver，那么你则可通过：<br>假设将PC端的xxx文件传输到嵌入式设备/media/目录下：</p>
+<pre><code>$ adb push xxx /media/
+</code></pre><p>将/usr/bin/下的yyy文件拷贝到PC端当前目录下：</p>
+<pre><code>$ adb pull /usr/bin/yyy ./
+</code></pre><h2 id="2-mount-USB-device"><a href="#2-mount-USB-device" class="headerlink" title="2. mount USB device"></a>2. mount USB device</h2><p>把你要传输的内容存到U盘里，将U盘插入嵌入式设备。<br>再终端上查看是否检测到USB设备：</p>
+<pre><code>$ cat /proc/partitions
+</code></pre><p>假设新增的USB device为sda1，将它挂载某一个地方。<br>假设我要挂载mnt下面的test目录里：</p>
+<pre><code>$ mkdir /mnt/test
+$ mount /dev/sda1 /mnt/test
+</code></pre><p>则可把你的USB device mount到/mnt/test目录下。<br>使用完成后，记得umount：</p>
+<pre><code>$ umount /dev/sda1
+</code></pre><h2 id="3-tftp"><a href="#3-tftp" class="headerlink" title="3. tftp"></a>3. tftp</h2><p>整体框架如下：<br>PC（tftp server，ip 192.168.1.100） <--> Linux Device（tftp client，ip 192.168.1.1）<br>在PC端通过终端（telnet或者串口）控制Linux Device。</--></p>
+<p>在终端中输入如下指令，即可完成相应操作：        </p>
+<pre><code>// 从tftp server 192.168.1.100下载xxx文件到Linux Device的当前位置：
+tftp -g -r xxx 192.168.1.100
+
+// 将Linux Device当前目录下的xxx文件上传到tftp server 192.168.1.100
+tftp -p -l xxx 192.168.1.100
+
+// -l 表示本地文件名， -r 表示远程主机文件名， -g 表示下载文件， -p 表示上传文件
+</code></pre><p>To be continue…</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://xianglonglu.coding.me/2018/04/18/linux-adb-mount/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://xianglonglu.coding.me/2018/04/18/linux-adb-mount/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+				<span id="busuanzi_container_site_pv"> 2018 </span> 
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

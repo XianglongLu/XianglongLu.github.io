@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/images/me.jpg">
+	 <link rel="shortcut icon" href="/images/me.jpg">
+	
+			
+    <title>
+    XianglongLu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_funky.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Home</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="关于我">
+		                关于我
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/paper/" title="硕士成果">
+		                硕士成果
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/XianglongLu" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(http://pic24.photophoto.cn/20120724/0034034825497877_b.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Linux —— I2S音频总线简介</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>I2S（Inter-IC Sound）总线，即集成电路内置音频总线，是飞利浦公司为数字音频设备之间的音频数据传输而制定的一种总线标准，该总线专责于音频设备之间的数据传输，广泛应用于各种多媒体系统。</p>
+<p>I2S一般包含如下3根数据信号线：</p>
+<pre><code>1. 位时钟线 / bit clock line（BCLK）
+2. 字段时钟线 / word clock line
+3. 串行数据线 / serial data line
+</code></pre><p>但有时还会包含：</p>
+<pre><code>4. 主时钟 / Master clock（MCLK）
+5. A multiplexed data line for upload
+</code></pre><h2 id="1-BCLK-位时钟"><a href="#1-BCLK-位时钟" class="headerlink" title="1. BCLK / 位时钟"></a>1. BCLK / 位时钟</h2><p>也叫作连续串行时钟（SCLK，continuous serial clock）线。它对应于音频数据的每一位。</p>
+<p><em>频率 = 2 x 采样频率 x 采样位数</em></p>
+<h2 id="2-LRCLK-左右声道时钟"><a href="#2-LRCLK-左右声道时钟" class="headerlink" title="2. LRCLK / 左右声道时钟"></a>2. LRCLK / 左右声道时钟</h2><p>LRCLK全称left-right clock，也叫作字段选择（WS，word select）线。</p>
+<p>该线主要用于切换左右声道的数据。<br>当<em>WS=0</em>时代表左声道；<br><em>WS=1</em>时代表右声道。</p>
+<p><em>频率 = 采样频率</em></p>
+<h2 id="3-SD-串行数据"><a href="#3-SD-串行数据" class="headerlink" title="3. SD / 串行数据"></a>3. SD / 串行数据</h2><p>SD即serial data。<br>一般用二进制补码来表示音频数据。</p>
+<pre><code>--- 补码知识补充 ---
+正数的原码=反码=补码
+十进制 +23
+二进制原码 00010111
+二进制反码 00010111
+二进制补码 00010111
+
+负数的补码=反码+1
+十进制 -23
+二进制原码 10010111
+二进制反码 11101000 // 符号位不变，其它位取反
+二进制补码 11101001 // 反码+1                       
+</code></pre><h2 id="4-MCLK-主时钟"><a href="#4-MCLK-主时钟" class="headerlink" title="4. MCLK / 主时钟"></a>4. MCLK / 主时钟</h2><p>有时为了使系统间能够更好地同步，还需要另外传输主时钟（Master Clock, MCLK），也叫系统时钟（System Clock）。</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://xianglonglu.coding.me/2018/02/20/i2s-basic/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://xianglonglu.coding.me/2018/02/20/i2s-basic/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+				<span id="busuanzi_container_site_pv"> 2018 </span> 
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

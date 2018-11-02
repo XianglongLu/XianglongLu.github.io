@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/images/me.jpg">
+	 <link rel="shortcut icon" href="/images/me.jpg">
+	
+			
+    <title>
+    XianglongLu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_funky.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Home</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="关于我">
+		                关于我
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/paper/" title="硕士成果">
+		                硕士成果
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/XianglongLu" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1538241205737&amp;di=c4d3c933ed0ddb367641c1bd33e37f23&amp;imgtype=0&amp;src=http%3A%2F%2Fuploads.scratch.mit.edu%2Fprojects%2Fthumbnails%2F172001306.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>pandas(Python Data Analysis Library)数据结构 —— DataFrame</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h2 id="1-什么是pandas"><a href="#1-什么是pandas" class="headerlink" title="1. 什么是pandas"></a>1. 什么是pandas</h2><p>pandas是一款基于NumPy的数据分析库。<br>pandas里有两种自己独有的基本数据类型：Series和DataFrame。<br>有了这两种数据类型，数据分析便变得简单。</p>
+<p>前期别忘了导入它们：</p>
+<pre><code>import pandas as pd
+</code></pre><h2 id="2-DataFrame的创建，保存和读取"><a href="#2-DataFrame的创建，保存和读取" class="headerlink" title="2. DataFrame的创建，保存和读取"></a>2. DataFrame的创建，保存和读取</h2><h4 id="2-1-创建DataFrame"><a href="#2-1-创建DataFrame" class="headerlink" title="2.1 创建DataFrame"></a>2.1 创建DataFrame</h4><pre><code>print(&quot;---------- write teset ----------&quot;)
+df2 = pd.DataFrame({&quot;number&quot;:[1,2,3],
+                    &quot;name&quot;:[&quot;lily&quot;, &quot;lucy&quot;, &quot;jacky&quot;],
+                    &quot;age&quot;:[16,18,22]},
+                    columns=[&quot;number&quot;, &quot;age&quot;, &quot;name&quot;]) #用于决定列的排列顺序
+
+print(df2)
+</code></pre><p>运行结果如下所示：</p>
+<pre><code>---------- write test ----------
+   number  age   name
+0       1   16   lily
+1       2   18   lucy
+2       3   22  jacky
+</code></pre><p>第一列的0 1 2表示索引值。</p>
+<h4 id="2-2-将DataFrame保存为csv文件"><a href="#2-2-将DataFrame保存为csv文件" class="headerlink" title="2.2 将DataFrame保存为csv文件"></a>2.2 将DataFrame保存为csv文件</h4><pre><code>df2.to_csv(&quot;test1.csv&quot;, index=0, se=&#39;,&#39;) # index=0表示不保存索引行
+</code></pre><h4 id="2-3-读取csv文件"><a href="#2-3-读取csv文件" class="headerlink" title="2.3 读取csv文件"></a>2.3 读取csv文件</h4><pre><code>df1 = pd.DataFrame(pd.read_csv(&#39;name.csv&#39;,header=1))
+print(df1)
+</code></pre><p>输出结果如下，可以看出跟我们输入的完全一样。</p>
+<pre><code>---------- read test ----------
+   number  age   name
+0       1   16   lily
+1       2   18   lucy
+2       3   22  jacky
+</code></pre><h2 id="3-获取DataFrame的基本属性"><a href="#3-获取DataFrame的基本属性" class="headerlink" title="3. 获取DataFrame的基本属性"></a>3. 获取DataFrame的基本属性</h2><p>承接上一章节中创建的DataFrame。</p>
+<h3 id="3-1-查看DataFrame的结构-形状"><a href="#3-1-查看DataFrame的结构-形状" class="headerlink" title="3.1 查看DataFrame的结构/形状"></a>3.1 查看DataFrame的结构/形状</h3><pre><code>print(df2.shape) 
+</code></pre><p>运行结果：</p>
+<pre><code>(3, 3)
+</code></pre><p>数据结构为一个3X3矩阵。</p>
+<h3 id="3-2-查看各列的数据类型"><a href="#3-2-查看各列的数据类型" class="headerlink" title="3.2 查看各列的数据类型"></a>3.2 查看各列的数据类型</h3><pre><code>print(df2.dtypes)
+</code></pre><p>运行结果：</p>
+<pre><code>number     int64
+age        int64
+name      object
+dtype: object
+</code></pre><h3 id="3-3-xxxxx"><a href="#3-3-xxxxx" class="headerlink" title="3.3 xxxxx"></a>3.3 xxxxx</h3><h2 id="4-数据的提取和筛选"><a href="#4-数据的提取和筛选" class="headerlink" title="4 数据的提取和筛选"></a>4 数据的提取和筛选</h2><h3 id="4-1-以矩阵形式打印出所有-某列-某行数据"><a href="#4-1-以矩阵形式打印出所有-某列-某行数据" class="headerlink" title="4.1 以矩阵形式打印出所有/某列/某行数据"></a>4.1 以矩阵形式打印出所有/某列/某行数据</h3><pre><code>print(&quot;------- 打印全部数据 ---------&quot;)
+print(df2.values)        # 打印全部数据
+print(&quot;------- 打印第一行数据 -------&quot;)
+print(df2.values[0])    # 打印第一行数据
+print(&quot;------- 打印第一列数据 -------&quot;)
+print(df2.values[:,0])    # 打印第一列数据
+</code></pre><p>运行结果如下：</p>
+<pre><code>------- 打印全部数据 ---------
+[[1 16 &#39;lily&#39;]
+ [2 18 &#39;lucy&#39;]
+ [3 22 &#39;jacky&#39;]]
+------- 打印第一行数据 -------
+[1 16 &#39;lily&#39;]
+------- 打印第一列数据 -------
+[1 2 3]
+</code></pre><h3 id="4-2-获取index-索引-值和column-列-名称"><a href="#4-2-获取index-索引-值和column-列-名称" class="headerlink" title="4.2 获取index(索引)值和column(列)名称"></a>4.2 获取index(索引)值和column(列)名称</h3><pre><code>print(&quot;------------------ print index -----------------&quot;)
+print(df2.index) # 获取index(索引)值
+print(&quot;----------- print the list type index ----------&quot;)
+print(list(df2.index))
+print(&quot;------------------ print column ----------------&quot;)
+print(df2.columns) # 获column(列)名称
+print(&quot;----------- print the list type column ---------&quot;)
+print(list(df2.columns))
+</code></pre><p>运行结果：</p>
+<pre><code>------------------ print index -----------------
+RangeIndex(start=0, stop=3, step=1)
+----------- print the list type index ----------
+[0, 1, 2]
+------------------ print column ----------------
+Index([&#39;number&#39;, &#39;age&#39;, &#39;name&#39;], dtype=&#39;object&#39;)
+----------- print the list type column ---------
+[&#39;number&#39;, &#39;age&#39;, &#39;name&#39;]
+</code></pre><h3 id="4-3-根据column-name查看数据"><a href="#4-3-根据column-name查看数据" class="headerlink" title="4.3 根据column name查看数据"></a>4.3 根据column name查看数据</h3><p>e.g. 查看age列的数据：</p>
+<pre><code>print(df2[&#39;age&#39;])
+</code></pre><p>运行结果：</p>
+<pre><code>0    16
+1    18
+2    22
+Name: age, dtype: int64
+</code></pre><h3 id="4-4-根据index查看某个成员"><a href="#4-4-根据index查看某个成员" class="headerlink" title="4.4 根据index查看某个成员"></a>4.4 根据index查看某个成员</h3><pre><code>print(df2.loc[2])
+</code></pre><p>运行结果：</p>
+<pre><code>number        3
+age          22
+name      jacky
+Name: 2, dtype: object
+</code></pre><h3 id="4-5-数据筛选"><a href="#4-5-数据筛选" class="headerlink" title="4.5 数据筛选"></a>4.5 数据筛选</h3><p>现在我们把样本扩大，从之前的3个扩到到8个：<br>print(“———- write test ———-“)<br>df2 = pd.DataFrame({“number”:[1,2,3,4,5,6,7,8],<br>                    “name”:[“Lily”, “Lucy”, “Jacky”, “Tom”, “Kate”, “Michael”, “Jim”, “Mike”],<br>                    “age”:[16,18,22,5,10,40,66,30],<br>                    “sex”:[“female”,”female”,”man”,”man”,”female”,”man”,”man”,”man”]},<br>                    columns=[“number”, “age”, “name”, “sex”]) #用于决定列的排列顺序</p>
+<p>print(df2)<br>print(“———- end —————–”)<br>运行结果：</p>
+<pre><code>---------- write test ----------
+   number  age     name     sex
+0       1   16     Lily  female
+1       2   18     Lucy  female
+2       3   22    Jacky     man
+3       4    5      Tom     man
+4       5   10     Kate  female
+5       6   40  Michael     man
+6       7   66      Jim     man
+7       8   30     Mike     man
+---------- end -----------------
+</code></pre><h4 id="4-5-1-数据筛选之”与或非”的使用"><a href="#4-5-1-数据筛选之”与或非”的使用" class="headerlink" title="4.5.1 数据筛选之”与或非”的使用"></a>4.5.1 数据筛选之”与或非”的使用</h4><p>（1）提取age大于等于18的数据(‘age’&gt;=18)<br>（2）提取age大于等于18(‘age’&gt;=18)且age小于40的数据<br>（3）提取age大于等于50(‘age’&gt;=18)或age小于10的数据<br>（4）提取sex为非man的数据</p>
+<pre><code>print(&quot;---------- age &gt;= 18 ----------------------&quot;)
+print(df2.loc[df2[&#39;age&#39;]&gt;=18])
+print(&quot;---------- age &gt;= 18 且 age &lt; 40 ----------&quot;)
+print(df2.loc[ (df2[&#39;age&#39;]&gt;=18) &amp; (df2[&#39;age&#39;]&lt;40) ])
+print(&quot;---------- age &gt;= 50 或 age &lt; 10 ----------&quot;)
+print(df2.loc[ (df2[&#39;age&#39;]&gt;=50) | (df2[&#39;age&#39;]&lt;10) ])
+print(&quot;---------- sex != man ---------------------&quot;)
+print(df2.loc[ (df2[&quot;sex&quot;] != &quot;man&quot;)])
+</code></pre><p>运行结果：</p>
+<pre><code>---------- age &gt;= 18 ----------------------
+   number  age     name     sex
+1       2   18     Lucy  female
+2       3   22    Jacky     man
+5       6   40  Michael     man
+6       7   66      Jim     man
+7       8   30     Mike     man
+---------- age &gt;= 18 且 age &lt; 40 ----------
+   number  age   name     sex
+1       2   18   Lucy  female
+2       3   22  Jacky     man
+7       8   30   Mike     man
+---------- age &gt;= 50 或 age &lt; 10 ----------
+   number  age name  sex
+3       4    5  Tom  man
+6       7   66  Jim  man
+---------- age !&gt; 40 ----------------------
+   number  age  name     sex
+0       1   16  Lily  female
+1       2   18  Lucy  female
+4       5   10  Kate  female
+</code></pre><h4 id="4-5-2-数据筛选并计数"><a href="#4-5-2-数据筛选并计数" class="headerlink" title="4.5.2 数据筛选并计数"></a>4.5.2 数据筛选并计数</h4><p>（1）提取age大于等于18的数据(‘age’&gt;=18)并计算出其个数</p>
+<pre><code>print(&quot;---------- age &gt;= 18 ----------------------&quot;)
+print(df2.loc[df2[&#39;age&#39;]&gt;=18])
+print(&quot;---------- the number of &#39;age &gt;= 18&#39; ------&quot;)
+print(df2.loc[df2[&#39;age&#39;]&gt;=18][&#39;age&#39;].count())
+</code></pre><p>运行结果：</p>
+<pre><code>---------- age &gt;= 18 ----------------------
+   number  age     name     sex
+1       2   18     Lucy  female
+2       3   22    Jacky     man
+5       6   40  Michael     man
+6       7   66      Jim     man
+7       8   30     Mike     man
+---------- the number of &#39;age &gt;= 18&#39; ------
+5
+</code></pre>
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://xianglonglu.coding.me/2018/06/24/python-pandas-dataframe/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://xianglonglu.coding.me/2018/06/24/python-pandas-dataframe/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+				<span id="busuanzi_container_site_pv"> 2018 </span> 
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

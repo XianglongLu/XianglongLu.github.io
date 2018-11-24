@@ -58,7 +58,7 @@
 	            <a href="#s1">分类</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
+	                        <a class="category-link" href="/categories/C语言/">C语言</a></li><li><a class="category-link" href="/categories/Linux/">Linux</a></li><li><a class="category-link" href="/categories/Linux-command/">Linux command</a></li><li><a class="category-link" href="/categories/Python/">Python</a></li><li><a class="category-link" href="/categories/camera/">camera</a></li><li><a class="category-link" href="/categories/卫星定位/">卫星定位</a></li><li><a class="category-link" href="/categories/嵌入式/">嵌入式</a></li><li><a class="category-link" href="/categories/显示屏相关/">显示屏相关</a></li><li><a class="category-link" href="/categories/机器学习/">机器学习</a></li><li><a class="category-link" href="/categories/版本控制/">版本控制</a></li><li><a class="category-link" href="/categories/音频语音/">音频语音</a>
 	                    </li></ul>
 	        </li>
 	        
@@ -68,7 +68,7 @@
 	            <a href="#s1">归档</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                        <a class="archive-link" href="/archives/2018/11/">November 2018</a></li><li><a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
 	                    </li></ul>
 	        </li>
 	        
@@ -116,15 +116,63 @@
                 <h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><p>USB Universal Serial Bus 通用串行总线<br>OTG On-The-Go 网译：数码伴侣/一键拷贝<br>UDC USB Device Controller<br>UVC USB Video Class<br>UAC USB Audio Class<br>mass storage 大容量存储器<br>几种USB控制器类型：<br>HCI Host Controller Interface 主机控制接口<br>OHCI Open Host Controller Interface 开放式主机控制接口<br>OHCI支持USB1.1标准。<br>UHCI Universal Host Controller Interface 通用主机控制接口<br>UHCI支持USB 1.0和USB 1.1的接口标准，与OHCI不兼容。<br>EHCI Enhanced Host Controller Interface 增强型主机控制接口<br>EHCI就是通常所说的USB 2.0接口。<br>XHCI eXtensible Host Controller Interface 可扩展型主机控制接口<br>XHCI主要是面向USB 3.0协议，它不仅支持所有的USB 3.0特性，还同时也向下兼容USB 2.0及其以下的设备。XHCI可以理解为EHCI的增强版。</p>
 <h3 id="1-USB概述"><a href="#1-USB概述" class="headerlink" title="1. USB概述"></a>1. USB概述</h3><p>在USB的世界里，可分Host和Slave两种角色，PC一般是Host，手机等数码设备通常是Slave。<br>在Linux中，作为USB Slave的设备被称为gadget。</p>
 <p>OTG是在USB 2.0出现之后才提出来的，其主要是解决在没有Host的情况下（如PC机），能让两台USB设备实现数据传输的功能。<br>e.g.支持OTG功能的手机和普通的U盘。</p>
-<p>USB各个标准相应的速度信息如下：<br>|USB Version| Name|Speed|Release Time|<br>| —— | —— | —— | —— |<br>|USB 1.0|Low-Speed|1.5Mbps(192KB/s) |1996年1月|</p>
-<p>|USB 1.1|Full-Speed|12Mbps(1.5MB/s) |1998年9月|<br>|USB 2.0|High-Speed|480Mbps(60MB/s) |2000年4月|<br>|USB 2.0(OTG 1.0)|High-Speed|480Mbps(60MB/s) |2001年12月|<br>|USB 3.0|Super-Speed|5Gbps(640MB/s) |2008年11月|</p>
+<p>USB各个标准相应的速度信息如下：</p>
+<table>
+<thead>
+<tr>
+<th>USB Version</th>
+<th>Name</th>
+<th>Speed</th>
+<th>Release Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USB 1.0</td>
+<td>Low-Speed</td>
+<td>1.5Mbps(192KB/s)</td>
+<td>1996年1月</td>
+</tr>
+<tr>
+<td>USB 1.1</td>
+<td>Full-Speed</td>
+<td>12Mbps(1.5MB/s)</td>
+<td>1998年9月</td>
+</tr>
+<tr>
+<td>USB 2.0</td>
+<td>High-Speed</td>
+<td>480Mbps(60MB/s)</td>
+<td>2000年4月</td>
+</tr>
+<tr>
+<td>USB 2.0(OTG 1.0)</td>
+<td>High-Speed</td>
+<td>480Mbps(60MB/s)</td>
+<td>2001年12月</td>
+</tr>
+<tr>
+<td>USB 3.0</td>
+<td>Super-Speed</td>
+<td>5Gbps(640MB/s)</td>
+<td>2008年11月</td>
+</tr>
+</tbody>
+</table>
 <h3 id="2-USB-PIN定义"><a href="#2-USB-PIN定义" class="headerlink" title="2. USB PIN定义"></a>2. USB PIN定义</h3><p>USB接口一般有4条线组成：<strong>VCC(5V)</strong>，<strong>GND</strong>，<strong>D+</strong>，<strong>D-</strong><br>带OTG功能的设备会多1条线：<strong>ID pin</strong></p>
 <p>PC端USB的D-和D+均接了15k欧姆的下拉电阻。<br>当Slave插入PC端的USB口后，会将PC端的D-和D+电压拉高。<br>当ID pin为低电平（与地短接）时，该Device为Host（也叫A设备）；<br>当为高电平（一般浮空）时，为Slave（也叫B设备）。</p>
 <p>OTG有2种设备：两用OTG设备（可当Host和Slave）和外设型OTG设备（只可当Slave）。</p>
 <p>当Slave插入Host端后，Host端会提示有设备插入。它是怎么知道的呢？<br>原理：当Slave插入后，Host会主动向设备发送命令包，要求Slave告诉Host端其设备信息。</p>
 <p>多个USB Slave接入USB Host，Host如何区分Slave？<br>每一个Slave接入时，Host端的USB总线驱动都会给它分配一个编号（地址）。<br>Host访问哪一个Slave，发出的命令都含有对应的编号。</p>
 <p>USB协议<br>USB设备通过描述符来描述其功能，标准的USB设备有5种USB描述符：<br>设备描述符，配置描述符，字符串描述符，接口描述符，端点描述符。</p>
-<p>USB设备驱动<br>HID、usb audio class device、usb video class device、mass storage这四种设备可以开发通用的设备驱动，<br>只需要修改VID和PID即可。</p>
+<div style="display: none"><br>USB设备驱动<br>HID、usb audio class device、usb video class device、mass storage这四种设备可以开发通用的设备驱动，<br>只需要修改VID和PID即可。<br></div>
+
+
+
+
+
+
+
 
             </div>
 

@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://xianglonglu.coding.me/2018/10/13/linux-usb-basic-and-otg/</loc>
-    <lastmod>2018-11-02T15:52:22.919Z</lastmod>
+    <loc>http://xianglonglu.coding.me/2018/11/24/gnss-introduction/</loc>
+    <lastmod>2018-11-24T17:04:31.503Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2017/11/20/vim-cscope/</loc>
-    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+    <loc>http://xianglonglu.coding.me/2018/11/24/sip-and-soc/</loc>
+    <lastmod>2018-11-23T14:58:27.213Z</lastmod>
+  </url>  <url>
+    <loc>http://xianglonglu.coding.me/2018/10/13/linux-usb-basic-and-otg/</loc>
+    <lastmod>2018-11-03T10:50:08.869Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2017/11/16/vim-cmd/</loc>
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/07/08/svn-version-control/</loc>
+    <loc>http://xianglonglu.coding.me/2017/11/20/vim-cscope/</loc>
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2017/12/06/python-win10-install-tensorflow/</loc>
@@ -19,10 +22,13 @@
     <loc>http://xianglonglu.coding.me/2018/06/24/python-pandas-dataframe/</loc>
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
   </url>  <url>
+    <loc>http://xianglonglu.coding.me/2018/07/08/svn-version-control/</loc>
+    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+  </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/01/12/python-basic/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/02/19/processor-codec-mic/</loc>
+    <loc>http://xianglonglu.coding.me/2017/12/12/linux-sysfs-gpio/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/06/07/mipi-dsi/</loc>
@@ -40,10 +46,10 @@
     <loc>http://xianglonglu.coding.me/2018/10/02/linux-user-kernel-space/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2017/12/12/linux-sysfs-gpio/</loc>
+    <loc>http://xianglonglu.coding.me/2017/12/25/python-install-setuppy/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2017/12/25/python-install-setuppy/</loc>
+    <loc>http://xianglonglu.coding.me/2018/02/19/processor-codec-mic/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2017/12/08/linux-gpio-keys/</loc>
@@ -55,10 +61,7 @@
     <loc>http://xianglonglu.coding.me/2018/03/01/linux-sta-mode-command/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/09/15/linux-process/</loc>
-    <lastmod>2018-11-02T15:27:22.931Z</lastmod>
-  </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/07/16/linux-mipi-csi/</loc>
+    <loc>http://xianglonglu.coding.me/2018/02/03/linux-make-install/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/09/09/linux-display-environment-variable/</loc>
@@ -73,7 +76,7 @@
     <loc>http://xianglonglu.coding.me/2018/03/12/linux-etc-initd-dir/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/02/03/linux-make-install/</loc>
+    <loc>http://xianglonglu.coding.me/2018/09/15/linux-process/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/07/22/linux-grep-command/</loc>
@@ -83,6 +86,9 @@
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/02/05/linux-ls-l/</loc>
+    <lastmod>2018-11-02T15:27:22.931Z</lastmod>
+  </url>  <url>
+    <loc>http://xianglonglu.coding.me/2018/07/16/linux-mipi-csi/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/02/20/i2s-basic/</loc>

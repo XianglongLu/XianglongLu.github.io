@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xianglonglu.coding.me/2019/02/23/virtual-serial-port-tool/</loc>
+    
+    <lastmod>2019-02-28T15:33:31.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglonglu.coding.me/2018/11/25/gps-cold-warm-hot-start/</loc>
+    
+    <lastmod>2019-02-24T11:11:32.055Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglonglu.coding.me/2018/11/25/nb-iot-and-lte-m/</loc>
+    
+    <lastmod>2019-02-24T11:11:32.055Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglonglu.coding.me/2018/11/24/gnss-introduction/</loc>
     
     <lastmod>2018-11-24T17:04:31.503Z</lastmod>
@@ -23,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/paper/index.html</loc>
-    
-    <lastmod>2018-11-02T15:27:22.967Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglonglu.coding.me/tag/index.html</loc>
     
     <lastmod>2018-11-02T15:27:22.967Z</lastmod>
@@ -37,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/2017/11/16/vim-cmd/</loc>
+    <loc>http://xianglonglu.coding.me/paper/index.html</loc>
     
-    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+    <lastmod>2018-11-02T15:27:22.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/2017/11/20/vim-cscope/</loc>
+    <loc>http://xianglonglu.coding.me/categories/index.html</loc>
     
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
     
@@ -58,6 +72,13 @@
   </url>
   
   <url>
+    <loc>http://xianglonglu.coding.me/about/index.html</loc>
+    
+    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglonglu.coding.me/2018/06/24/python-pandas-dataframe/</loc>
     
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
@@ -65,7 +86,14 @@
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/about/index.html</loc>
+    <loc>http://xianglonglu.coding.me/2017/11/20/vim-cscope/</loc>
+    
+    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglonglu.coding.me/2017/11/16/vim-cmd/</loc>
     
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
     
@@ -79,21 +107,14 @@
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/categories/index.html</loc>
-    
-    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglonglu.coding.me/2018/01/12/python-basic/</loc>
+    <loc>http://xianglonglu.coding.me/2018/02/19/processor-codec-mic/</loc>
     
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/2017/12/12/linux-sysfs-gpio/</loc>
+    <loc>http://xianglonglu.coding.me/2018/01/12/python-basic/</loc>
     
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
     
@@ -142,7 +163,7 @@
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/2018/02/19/processor-codec-mic/</loc>
+    <loc>http://xianglonglu.coding.me/2017/12/12/linux-sysfs-gpio/</loc>
     
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
     
@@ -157,20 +178,6 @@
   
   <url>
     <loc>http://xianglonglu.coding.me/2018/09/30/linux-static-and-dynamic-libraries/</loc>
-    
-    <lastmod>2018-11-02T15:27:22.931Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglonglu.coding.me/2018/03/01/linux-sta-mode-command/</loc>
-    
-    <lastmod>2018-11-02T15:27:22.931Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglonglu.coding.me/2018/02/03/linux-make-install/</loc>
     
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
     
@@ -205,7 +212,7 @@
   </url>
   
   <url>
-    <loc>http://xianglonglu.coding.me/2018/09/15/linux-process/</loc>
+    <loc>http://xianglonglu.coding.me/2018/03/01/linux-sta-mode-command/</loc>
     
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
     
@@ -233,7 +240,21 @@
   </url>
   
   <url>
+    <loc>http://xianglonglu.coding.me/2018/02/03/linux-make-install/</loc>
+    
+    <lastmod>2018-11-02T15:27:22.931Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglonglu.coding.me/2018/07/16/linux-mipi-csi/</loc>
+    
+    <lastmod>2018-11-02T15:27:22.931Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglonglu.coding.me/2018/09/15/linux-process/</loc>
     
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
     

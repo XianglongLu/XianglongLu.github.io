@@ -68,7 +68,7 @@
 	            <a href="#s1">归档</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="archive-link" href="/archives/2019/03/">March 2019</a></li><li><a class="archive-link" href="/archives/2019/01/">January 2019</a></li><li><a class="archive-link" href="/archives/2018/11/">November 2018</a></li><li><a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
+	                        <a class="archive-link" href="/archives/2019/04/">April 2019</a></li><li><a class="archive-link" href="/archives/2019/02/">February 2019</a></li><li><a class="archive-link" href="/archives/2019/01/">January 2019</a></li><li><a class="archive-link" href="/archives/2018/11/">November 2018</a></li><li><a class="archive-link" href="/archives/2018/10/">October 2018</a></li><li><a class="archive-link" href="/archives/2018/09/">September 2018</a></li><li><a class="archive-link" href="/archives/2018/08/">August 2018</a></li><li><a class="archive-link" href="/archives/2018/07/">July 2018</a></li><li><a class="archive-link" href="/archives/2018/06/">June 2018</a></li><li><a class="archive-link" href="/archives/2018/05/">May 2018</a></li><li><a class="archive-link" href="/archives/2018/04/">April 2018</a></li><li><a class="archive-link" href="/archives/2018/03/">March 2018</a></li><li><a class="archive-link" href="/archives/2018/02/">February 2018</a></li><li><a class="archive-link" href="/archives/2018/01/">January 2018</a></li><li><a class="archive-link" href="/archives/2017/12/">December 2017</a></li><li><a class="archive-link" href="/archives/2017/11/">November 2017</a></li><li><a class="archive-link" href="/archives/2017/10/">October 2017</a></li><li><a class="archive-link" href="/archives/2017/07/">July 2017</a>
 	                    </li></ul>
 	        </li>
 	        
@@ -109,12 +109,18 @@
 
         <div id="main">
             <div class="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1551379830200&amp;di=b4e2f747ba1a03d2a8d2d7e12184c80e&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01da8855b1ed5b6ac725ca50e7551c.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Bayer Pattern（后续补全）</h2></a>
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Bayer Pattern 简介</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <p>Bayer Pattern分4种：</p>
+                <p>Bayer Pattern分为以下4种：</p>
 <p><img src="/img/bayer-pattern-1.png" width="40%" alt="图01"></p>
+<p>这其中当属RG/GB最为出名了。<br>至于它们为什么多一个G，网上的说法是：由于人眼对绿色光源（55nm）更为敏感。</p>
+<p><img src="/img/CFA1.png" width="50%" alt="图02"></p>
+<p>上图为一颗RG/GB camera sensor的滤光原理。<br>光源通过它的滤光片进入后，只会剩下RGB中的一种颜色，然后被转化为光强并存储下来。<br>接着sensor会按照RG/GB的格式排列好，存储起来就得到了我们常说的RAW图了。</p>
+<p>RAW图如果没有头文件，你将很难以正确的格式将其打开。<br>毕竟你既不知道它是8bit，10bit还是16bit的，也不知道它是RG/GB还是其它排列的。</p>
+<p>即便你能将其正常打开了，你看到也是其灰度图或色彩掺杂的效果。<br>想得到一副我们眼里的”正常”图片，你需要对RAW图做去马赛克处理，即将RG/GB转化为RGB格式。<br>去马赛克在今后的文章我会再去介绍。</p>
+<p>OK，今天就写那么多了。。。</p>
 <p>学无止境…<br>To be continue…</p>
 
             </div>

@@ -114,14 +114,16 @@
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
                 <h2 id="1-基础知识"><a href="#1-基础知识" class="headerlink" title="1. 基础知识"></a>1. 基础知识</h2><p>开始讲PIR之前，我觉得你首先得具备这些知识：</p>
-<p>（1）热释电效应(pyroelectric effect)，于1842年由布鲁斯特提出，<br>指的是极化强度随温度改变而表现出的电荷释放现象，<br>宏观上是温度的改变使在材料的两端出现电压或产生电流。</p>
-<p>（2）菲涅尔透镜(Fresnel lens)在很多时候相当于红外线及可见光的凸透镜，<br>效果较好，但成本比普通的凸透镜低很多。<br>多用于对精度要求不是很高的场合，<br>如幻灯机、薄膜放大镜、红外探测器等。<br>效果跟平凸透镜(planoconvex lends)一样。<br><img src="/img/fresnel-lens-1.jpg" alt="图1"></p>
-<p>（3）光谱简介。<br>可见光范围从350nm到700nm左右。<br><img src="/img/camera-light-spectrum.jpg" alt="图2"></p>
-<p>（4）红外线(Infrared Ray)是一种我们肉眼看不见的光，<br>红外线最显著的的特性是它具有热效应，也就是说所有高于绝对零度的物质都可以产生红外线。</p>
+<h4 id="1-1-热释电效应"><a href="#1-1-热释电效应" class="headerlink" title="1.1 热释电效应"></a>1.1 热释电效应</h4><p>热释电效应(pyroelectric effect)，于1842年由布鲁斯特提出，<br>指的是极化强度随温度改变而表现出的电荷释放现象，<br>宏观上是温度的改变使在材料的两端出现电压或产生电流。</p>
+<h4 id="1-2-菲涅尔透镜"><a href="#1-2-菲涅尔透镜" class="headerlink" title="1.2 菲涅尔透镜"></a>1.2 菲涅尔透镜</h4><p>菲涅尔透镜(Fresnel lens)在很多时候相当于红外线及可见光的凸透镜，<br>效果较好，但成本比普通的凸透镜低很多。<br>多用于对精度要求不是很高的场合，如幻灯机、薄膜放大镜、红外探测器等。<br>效果跟平凸透镜(planoconvex lends)一样。<br><img src="/img/fresnel-lens-1.jpg" alt="图1"></p>
+<h4 id="1-3-光谱简介"><a href="#1-3-光谱简介" class="headerlink" title="1.3 光谱简介"></a>1.3 光谱简介</h4><p>可见光范围从380nm到780nm左右。<br>IR光从760nm到1000nm左右。<br><img src="/img/camera-light-spectrum.jpg" width="80%" alt="图2"></p>
+<h4 id="1-4-红外光热效应"><a href="#1-4-红外光热效应" class="headerlink" title="1.4 红外光热效应"></a>1.4 红外光热效应</h4><p>红外线(Infrared Ray)是一种我们肉眼看不见的光，<br>红外线最显著的的特性是它具有热效应，也就是说所有高于绝对零度的物质都可以产生红外线。</p>
 <h2 id="2-PIR-sensor-简介"><a href="#2-PIR-sensor-简介" class="headerlink" title="2. PIR sensor 简介"></a>2. PIR sensor 简介</h2><p>PIR(Passive Infrared) Detector/Sensor，即被动红外探测器/传感器<br>检测范围：&lt;10m，具体看产品<br>优点：便宜<br>检测角度：最大横纵100度左右<br>原理依据：热释电效应(pyroelectric effect)</p>
-<p><img src="/img/camera-pir-1.png" width="80%" alt="图1"><br><img src="/img/camera-pir-2.png" width="80%" alt="图1"><br><img src="/img/fresnel-lens-2.png" width="80%" alt="图1"><br><img src="/img/fresnel-lens-3.png" width="80%" alt="图1"></p>
-<p>PIR Sensor IC：<br>一般有3 PIN(VCC,GND &amp; Output Signal)<br><img src="/img/camera-pir-3.png" width="100%" alt="图1"></p>
+<p><img src="/img/camera-pir-1.png" width="30%" alt="图1"><br><img src="/img/camera-pir-2.png" width="30%" alt="图1"><br><img src="/img/fresnel-lens-2.png" width="30%" alt="图1"><br><img src="/img/fresnel-lens-3.png" width="30%" alt="图1"></p>
+<p>PIR Sensor IC：<br>一般有3 PIN(VCC,GND &amp; Output Signal)<br><img src="/img/camera-pir-3.png" width="30%" alt="图1"></p>
+<p>整个模组的结构：<br><img src="/img/camera-pir-0.png" width="30%" alt="图1"></p>
 <p>工作流程：<br>入射IR光发生改变 -&gt; 温度改变 –&gt; 电量发生改变 -&gt; 电流/电压发生改变 -&gt; 监测电流/电压变换即可知道IR光变化</p>
+<p><img src="/img/camera-pir-4.png" width="40%" alt="图1"></p>
 <p>学无止境…<br>To be continue…</p>
 
             </div>

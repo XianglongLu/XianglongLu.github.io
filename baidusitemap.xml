@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://xianglonglu.coding.me/2019/07/10/vim-ctags/</loc>
+    <lastmod>2019-07-11T15:36:58.661Z</lastmod>
+  </url>  <url>
     <loc>http://xianglonglu.coding.me/2019/05/05/linux-c-file-descriptor-and-file-struct/</loc>
     <lastmod>2019-07-11T15:36:58.661Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2019/01/10/camera-basic-param/</loc>
-    <lastmod>2019-07-11T15:36:58.661Z</lastmod>
-  </url>  <url>
-    <loc>http://xianglonglu.coding.me/2019/07/10/vim-ctags/</loc>
     <lastmod>2019-07-11T15:36:58.661Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2019/02/20/camera-resolution-mtf-and-sfr/</loc>
@@ -19,10 +19,7 @@
     <loc>http://xianglonglu.coding.me/2019/04/28/acoustic-frequency-response/</loc>
     <lastmod>2019-04-30T15:32:05.141Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/02/19/processor-codec-mic/</loc>
-    <lastmod>2019-04-28T07:37:49.127Z</lastmod>
-  </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/03/10/alsa-config-file/</loc>
+    <loc>http://xianglonglu.coding.me/2018/02/20/i2s-basic/</loc>
     <lastmod>2019-04-28T07:37:49.127Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/05/15/alsa-fix-miss-proc-asound/</loc>
@@ -31,10 +28,13 @@
     <loc>http://xianglonglu.coding.me/2018/01/16/alsa-utils/</loc>
     <lastmod>2019-04-28T07:37:49.127Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/02/20/i2s-basic/</loc>
+    <loc>http://xianglonglu.coding.me/2018/03/10/alsa-config-file/</loc>
     <lastmod>2019-04-28T07:37:49.127Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/03/20/alsa-buffer-period-frame/</loc>
+    <lastmod>2019-04-28T07:37:49.127Z</lastmod>
+  </url>  <url>
+    <loc>http://xianglonglu.coding.me/2018/02/19/processor-codec-mic/</loc>
     <lastmod>2019-04-28T07:37:49.127Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2019/04/28/acoustic-what-is-soundbar/</loc>
@@ -46,19 +46,19 @@
     <loc>http://xianglonglu.coding.me/2019/03/16/python-continuous-wavelet-transform/</loc>
     <lastmod>2019-04-20T16:02:46.367Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2019/02/23/virtual-serial-port-tool/</loc>
+    <loc>http://xianglonglu.coding.me/2019/04/02/python-plot-3d/</loc>
     <lastmod>2019-04-08T08:15:09.261Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2019/04/02/python-plot-3d/</loc>
+    <loc>http://xianglonglu.coding.me/2019/02/23/virtual-serial-port-tool/</loc>
     <lastmod>2019-04-08T08:15:09.261Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2019/01/15/camera-bayer-pattern/</loc>
     <lastmod>2019-04-08T08:07:25.085Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/11/25/nb-iot-and-lte-m/</loc>
+    <loc>http://xianglonglu.coding.me/2018/11/25/gps-cold-warm-hot-start/</loc>
     <lastmod>2019-02-24T11:11:32.055Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/11/25/gps-cold-warm-hot-start/</loc>
+    <loc>http://xianglonglu.coding.me/2018/11/25/nb-iot-and-lte-m/</loc>
     <lastmod>2019-02-24T11:11:32.055Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/11/24/gnss-introduction/</loc>
@@ -70,28 +70,28 @@
     <loc>http://xianglonglu.coding.me/2018/10/13/linux-usb-basic-and-otg/</loc>
     <lastmod>2018-11-03T10:50:08.869Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2017/11/20/vim-cscope/</loc>
-    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
-  </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/06/24/python-pandas-dataframe/</loc>
-    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
-  </url>  <url>
-    <loc>http://xianglonglu.coding.me/2017/12/06/python-win10-install-tensorflow/</loc>
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/07/08/svn-version-control/</loc>
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
   </url>  <url>
+    <loc>http://xianglonglu.coding.me/2017/11/20/vim-cscope/</loc>
+    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+  </url>  <url>
+    <loc>http://xianglonglu.coding.me/2017/12/06/python-win10-install-tensorflow/</loc>
+    <lastmod>2018-11-02T15:27:22.939Z</lastmod>
+  </url>  <url>
     <loc>http://xianglonglu.coding.me/2017/11/16/vim-cmd/</loc>
     <lastmod>2018-11-02T15:27:22.939Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2017/12/25/python-install-setuppy/</loc>
+    <loc>http://xianglonglu.coding.me/2018/06/07/mipi-dsi/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2017/12/12/linux-sysfs-gpio/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/06/07/mipi-dsi/</loc>
+    <loc>http://xianglonglu.coding.me/2018/01/12/python-basic/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/10/02/linux-user-kernel-space/</loc>
@@ -100,7 +100,7 @@
     <loc>http://xianglonglu.coding.me/2018/08/19/linux-xwindow-vs-wayland/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/01/12/python-basic/</loc>
+    <loc>http://xianglonglu.coding.me/2017/12/25/python-install-setuppy/</loc>
     <lastmod>2018-11-02T15:27:22.935Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2017/10/09/migrate-github-hexo-to-codingnet/</loc>
@@ -121,10 +121,10 @@
     <loc>http://xianglonglu.coding.me/2018/09/15/linux-process/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/09/30/linux-static-and-dynamic-libraries/</loc>
+    <loc>http://xianglonglu.coding.me/2018/03/01/linux-sta-mode-command/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/03/01/linux-sta-mode-command/</loc>
+    <loc>http://xianglonglu.coding.me/2018/09/30/linux-static-and-dynamic-libraries/</loc>
     <lastmod>2018-11-02T15:27:22.931Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/09/09/linux-display-environment-variable/</loc>
@@ -151,7 +151,7 @@
     <loc>http://xianglonglu.coding.me/2018/04/18/linux-adb-mount/</loc>
     <lastmod>2018-11-02T15:27:22.927Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/03/31/linux-device-tree-source/</loc>
+    <loc>http://xianglonglu.coding.me/2018/09/01/linux-diff-patch/</loc>
     <lastmod>2018-11-02T15:27:22.927Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/10/14/linux-ddr3-introduction/</loc>
@@ -175,7 +175,7 @@
     <loc>http://xianglonglu.coding.me/2018/01/04/linux-apt-command/</loc>
     <lastmod>2018-11-02T15:27:22.927Z</lastmod>
   </url>  <url>
-    <loc>http://xianglonglu.coding.me/2018/09/01/linux-diff-patch/</loc>
+    <loc>http://xianglonglu.coding.me/2018/03/31/linux-device-tree-source/</loc>
     <lastmod>2018-11-02T15:27:22.927Z</lastmod>
   </url>  <url>
     <loc>http://xianglonglu.coding.me/2018/06/30/lcm-basic/</loc>
